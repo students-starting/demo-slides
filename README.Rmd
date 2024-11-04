@@ -1,0 +1,18 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+source("R/utils.R")
+```
+
+```{r, echo=FALSE, results='asis'}
+make_index()
+```
+
